@@ -273,7 +273,7 @@ p{
 .grid_aside{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .titulos_aside{
@@ -338,14 +338,14 @@ p{
     background-color: #ECE9B5;
     padding: 10px;
     margin: 5px 0;
-    grid-column: 7/9;
-    grid-row: 2/5;
+    grid-column: 4/9;
+    grid-row: 4/5;
 }
 
 .imagen_aside{
     width: 100%;
     border-radius: 20px;
-    grid-column: 4/7;
+    grid-column: 5/9;
     grid-row: 2/4;
 }
 
