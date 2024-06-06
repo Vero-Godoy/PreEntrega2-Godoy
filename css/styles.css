@@ -1,0 +1,460 @@
+*{  margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    color: #ECE9B5;
+}
+
+body{
+    background-color: #271F15;
+}
+
+/****** header ******/
+header{
+    background-color: #271F15;
+    border: solid 2px #ECE9B5;
+    /* background-position: top;
+    background-size: contain; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* position: sticky;
+    top: 15px; */ */
+}
+
+.logo_marca{
+    width: 150px;
+}
+
+.slogan{
+    font-family: "Caveat", cursive;
+    color: #271F15;
+    background-color: #ECE9B5;
+    font-size: 2em;
+    text-align: right;
+    margin-right: 20px;
+    border: solid 5px #FF9E1D;
+    display: inline-block;
+}
+
+
+    
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav_item_style{
+    color: #ECE9B5 !important;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
+
+nav ul li a:link{
+    text-decoration: overline underline;
+}
+
+nav ul li a:hover{
+    color: #FF9E1D;
+    font-size: 1.3em;
+    transition: 1s;
+}
+
+
+
+/****** main ******/
+
+
+
+.titulos{
+    font-family: "Caveat", cursive;
+    font-size: 2em;
+    background-color: #ECE9B5;
+    color: #271F15;
+    border: solid 5px #FF9E1D;
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+.subtitulo{
+    font-family: "Caveat", cursive;
+    color: #271F15;
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+p{
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+/* .producto_inicio{
+    background-image: url(../assets/logo_fondo_negro.png);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} */
+
+.producto_inicio{
+    background-image: url(../assets/logo_fondo_negro.png);
+    background-repeat: repeat;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.producto_inicio section{
+    background-color: #FF9E1D;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.producto_inicio a section:hover{
+    width: 270px;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+
+.producto_inicio section img{
+    width: 200px;
+    height: 300px;
+}
+
+.producto_inicio section p{
+    color: #271F15;
+    background-color: #ECE9B5;
+}
+
+.producto{
+    background-image: url(../assets/logo_fondo_negro.png);
+    background-repeat: repeat;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.titulo_producto{
+    font-family: "Caveat", cursive;
+    font-size: 2em;
+    background-color: #ECE9B5;
+    color: #271F15;
+    border: solid 5px #FF9E1D;
+    text-align: center;
+    margin: 15px 0;
+    grid-column: 1/5;
+}
+
+#vintage{
+    border: solid 2px #ECE9B5;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#modernas{
+    border: solid 2px #ECE9B5;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+#rusticas{
+    border: solid 2px #ECE9B5;
+    grid-column: 3/4;
+    grid-row: 3/5;
+}
+
+#industriales{
+    border: solid 2px #ECE9B5;
+    grid-column: 4/5;
+    grid-row: 4/6;
+}
+
+.producto section{
+    background-color: #FF9E1D;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.producto a section:hover{
+    width: 270px;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+
+.producto section img{
+    width: 200px;
+    height: 300px;
+}
+
+.producto section p{
+    color: #271F15;
+    background-color: #ECE9B5;
+}
+
+.historia_1{
+    display: flex;
+    margin: 20px 0;
+    padding: 5px 15px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.historia_2{
+    display: flex;
+    margin: 20px 0;
+    padding: 5px 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.historia_3{
+    display: flex;
+    margin: 20px 0;
+    padding: 5px 15px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.texto_historia{
+    width: 25%;
+    border-radius: 20px;
+    color: #271F15;
+    font-size: 1.2em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #ECE9B5;
+    padding: 10px;
+    margin: 5px 0;
+}
+ 
+
+
+.texto_corto{
+    width: 350px;
+}
+
+.boton_formulario{
+    background-color: #FF9E1D !important;
+    color: #271F15;
+}
+
+
+
+/****** aside ******/
+
+.texto{
+    color: #271F15;
+    font-size: 1.2em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #ECE9B5;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+
+.imagen{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.grid_aside{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.titulos_aside{
+    font-family: "Caveat", cursive;
+    font-size: 2em;
+    background-color: #ECE9B5;
+    color: #271F15;
+    border: solid 5px #FF9E1D;
+    text-align: center;
+    margin: 15px 0;
+    grid-column: 2/8;
+    
+}
+
+.video_aside{
+    border: solid 2px #ECE9B5;
+    grid-column: 1/5;
+    grid-row: 2/6;
+}
+
+.texto_aside{
+    color: #271F15;
+    font-size: 1.2em;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #ECE9B5;
+    padding: 10px;
+    margin: 5px 0;
+    grid-column: 6/8;
+    grid-row: 3/5;
+}
+
+.grid_aside_2{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.texto_aside_1{
+    color: #271F15;
+    font-size: 1.2em;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #ECE9B5;
+    padding: 10px;
+    margin: 5px 0;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+.texto_aside_2{
+    color: #271F15;
+    font-size: 1.2em;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #ECE9B5;
+    padding: 10px;
+    margin: 5px 0;
+    grid-column: 7/9;
+    grid-row: 2/5;
+}
+
+.imagen_aside{
+    width: 100%;
+    border-radius: 20px;
+    grid-column: 4/7;
+    grid-row: 2/4;
+}
+
+/****** footer ******/
+.pie_de_pagina{
+    background-color: #271F15;
+    border: solid 5px #FF9E1D;
+    
+}
+
+.pie_de_pagina img{
+    width: 200px;
+} 
+
+.pie_de_pagina a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.rrss img{
+    width: 40px;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+@media (max-width:420px) {
+
+      nav ul li{
+        display: block
+    }
+
+    nav ul li a{
+        font-size: 1em;
+    }
+
+    .logo_marca{
+        width: 50%;
+    }
+
+.producto_inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+}
+
+@media (max-width: 760px) {
+
+     
+    .producto_inicio{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grid_aside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .grid_aside_2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .video_aside{
+        width: auto;
+    }
+    
+    .titulos{
+        font-size: 1.5em;
+        border: solid 2px #FF9E1D;
+        text-align: center;
+        margin: 5px 0;
+    }
+    
+    .titulos_aside{
+        font-size: 1em;
+    }
+    
+    .texto_aside{
+        font-size: 1em;
+    }
+    
+    .texto_aside_1{
+        font-size: 1em;
+    }
+    .texto_aside_2{
+        font-size: 1em;
+    }
+    
+    .pie_de_pagina{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
