@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: map-get($fuentes, fuente-principal), sans-serif;
+    font-size: 18px;
+    color: $color-terciario;
+}
+
+body {
+    background-image: radial-gradient(ellipse, $color-secundario 20%, $color-principal 80%);
+}
+
+/****** header ******/
+header {
+    background-color: $color-principal;
+    border: solid 2px $color-terciario;
+
+    nav {
+        div {
+
+            ul {
+                li {
+                    display: inline-block;
+                    margin: 5px;
+                    padding: 5px;
+
+                    a:hover {
+                        color: $color-secundario;
+                        font-size: 1.3em;
+                        transition: 1s;
+                    }
+
+                    a:link {
+                        text-decoration: overline underline;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.nav_item_style {
+    color: $color-terciario !important;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+
+.logo_marca {
+    width: 150px;
+}
+
+.slogan {
+    font-family: map-get($fuentes, fuente-secundaria), cursive;
+    color: $color-principal;
+    background-color: $color-terciario;
+    font-size: 2em;
+    text-align: right;
+    margin-right: 20px;
+    border: solid 5px $color-secundario;
+    display: inline-block;
+}

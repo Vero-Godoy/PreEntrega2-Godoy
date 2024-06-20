@@ -1,0 +1,148 @@
+@media (max-width: 760px) {
+
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+    }
+
+
+    .producto_inicio {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grid_aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid_aside_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video_aside {
+        width: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-4 {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .col-8 {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    iframe {
+        width: 90%;
+    }
+
+    .titulos {
+        font-size: 1.5em;
+        border: solid 2px $color-secundario;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .texto {
+        font-size: 1em;
+        width: auto;
+    }
+
+    .titulo_producto {
+        font-size: 1.5em;
+    }
+
+    .titulos_aside {
+        font-size: 1em;
+    }
+
+    .texto_aside {
+        font-size: 1em;
+    }
+
+    .texto_aside_1 {
+        font-size: 1em;
+    }
+
+    .texto_aside_2 {
+        font-size: 1em;
+    }
+
+    .historia_1 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .historia_2 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .historia_3 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto_historia {
+        width: auto;
+    }
+
+    .pie_de_pagina {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:420px) {
+
+    nav ul li {
+        display: block;
+
+        a {
+            font-size: 1em;
+        }
+    }
+
+    .logo_marca {
+        width: 50%;
+    }
+
+    .producto_inicio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

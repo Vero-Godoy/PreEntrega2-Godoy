@@ -1,0 +1,86 @@
+/****** aside ******/
+
+.texto {
+    color: $color-principal;
+    font-size: 1.2em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: $color-terciario;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+
+.imagen {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.grid_aside {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.titulos_aside {
+    font-family: map-get($fuentes, fuente-secundaria), cursive;
+    font-size: 2em;
+    background-color: $color-terciario;
+    color: $color-principal;
+    border: solid 5px $color-secundario;
+    align-content: center;
+    text-align: center;
+    margin: 15px 0;
+    grid-column: 2/8;
+
+}
+
+.video_aside {
+    border: solid 2px $color-terciario;
+    grid-column: 1/5;
+    grid-row: 2/6;
+}
+
+.texto_aside {
+    @include texto-aside ($color-principal, $color-terciario, 1.2em, 10px, 5px 0);
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    grid-column: 6/8;
+    grid-row: 2/4;
+}
+
+.grid_aside_2 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.texto_aside_1 {
+    @include texto-aside($color-terciario, $color-principal, 1.2em, 10px, 5px 0);
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+.texto_aside_2 {
+    @include texto-aside($color-principal, $color-terciario, 1.2em, 10px, 5px 0);
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    grid-column: 4/9;
+    grid-row: 3/4;
+}
+
+.imagen_aside {
+    width: 100%;
+    border-radius: 20px;
+    grid-column: 5/9;
+    grid-row: 1/3;
+}

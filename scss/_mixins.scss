@@ -1,0 +1,7 @@
+@mixin texto-aside ($color-txt, $color-bckg, $tamanio, $padding, $margin) {
+    color: $color-txt;
+    background-color: $color-bckg;
+    font-size: $tamanio;
+    padding: $padding;
+    margin: $margin;
+}

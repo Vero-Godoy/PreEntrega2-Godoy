@@ -1,0 +1,63 @@
+@import "_extend";
+
+
+.titulos {
+    font-family: map-get($fuentes, fuente-secundaria), cursive;
+    font-size: 2em;
+    background-color: $color-terciario;
+    color: $color-principal;
+    border: solid 5px $color-secundario;
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+.subtitulo {
+    font-family: map-get($fuentes , fuente-secundaria), cursive;
+    color: $color-principal;
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+p {
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.historia_1 {
+    @extend .historia;
+    align-items: flex-start;
+}
+
+.historia_2 {
+    @extend .historia;
+    align-items: center;
+}
+
+.historia_3 {
+    @extend .historia;
+    align-items: flex-end;
+}
+
+.texto_historia {
+    width: 25%;
+    border-radius: 20px;
+    color: $color-principal;
+    font-size: 1.2em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: $color-terciario;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.texto_corto {
+    width: 350px;
+}
+
+.boton_formulario {
+    background-color: $color-secundario !important;
+    color: $color-principal;
+}

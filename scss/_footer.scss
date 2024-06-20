@@ -1,0 +1,62 @@
+/****** footer ******/
+.pie_de_pagina {
+    width: 100%;
+    background-color: $color-principal;
+    border: solid 5px $color-secundario;
+    display: inline-flex;
+    align-items: center;
+
+
+    img {
+        width: 200px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    nav {
+        div {
+            ul {
+                li {
+                    display: inline-block;
+                    margin: 5px;
+                    padding: 5px;
+
+                    a:hover {
+                        color: $color-secundario;
+                        font-size: 1.3em;
+                        transition: 1s;
+                    }
+
+                    a:link {
+                        text-decoration: overline underline;
+                    }
+
+                }
+            }
+        }
+
+    }
+}
+
+.nav_item_style {
+    color: $color-terciario !important;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+
+.logo_marca {
+    width: 150px;
+}
+
+
+
+.rrss img {
+    width: 60px;
+    display: inline-block;
+    padding: 10px;
+}
